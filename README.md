@@ -76,3 +76,14 @@ This project is distributed under MIT License read `LICENSE` file for more detai
 If you like the project 🌟 the repository.
 
 Thank you with ❤ Sayak Gain
+
+## Screeshots
+Day Mode
+![image](https://github.com/user-attachments/assets/fc8bc61a-0df6-48f5-b2af-9e8aeb0cc542)
+Night Mode
+![image](https://github.com/user-attachments/assets/87de0b0a-5ff8-4b29-b532-649085fb9d7e)
+Weather Details
+![image](https://github.com/user-attachments/assets/81260a3b-8fe6-4a60-a379-660c36e0dedf)
+
+
+
