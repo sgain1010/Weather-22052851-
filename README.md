@@ -34,14 +34,11 @@ the details used from the `openweathermap API` is follows:
 3. `sys.country` Country code (GB, JP etc.)
 4. `main.temp` Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.
 5. `main.feels_like` Temperature. This temperature parameter accounts for the human perception of weather. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.
-6. `main.pressure` Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa
-7. `main.humidity` Humidity, %
-8. `main.temp_min` Minimum temperature at the moment. This is minimal currently observed temperature (within large megalopolises and urban areas). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.
-9. `main.temp_max` Maximum temperature at the moment. This is maximal currently observed temperature (within large megalopolises and urban areas). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.
-10. `coord.lon` City geo location, longitude.
-11. `coord.lat` City geo location, latitude.
-12. `weather.description` Weather condition within the group. You can get the output in your language.
-13. `weather.icon` Weather icon id
+6. `main.humidity` Humidity, %
+7. `main.temp_min` Minimum temperature at the moment. This is minimal currently observed temperature (within large megalopolises and urban areas). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.
+8. `main.temp_max` Maximum temperature at the moment. This is maximal currently observed temperature (within large megalopolises and urban areas). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.
+9. `weather.description` Weather condition within the group. You can get the output in your language.
+10. `weather.icon` Weather icon id
 
 
 ## Pre Requisite
