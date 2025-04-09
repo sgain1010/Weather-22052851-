@@ -1,0 +1,15 @@
+.voice-button {
+    padding: 2%;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent; /* Makes it transparent */
+    color: black;                  /* Icon color */
+    cursor: pointer;
+    outline: none;
+    transition: color 0.3s ease;
+  }
+  
+  .voice-button:hover {
+    color: var(--light-blue); /* Optional hover effect */
+  }
+  

@@ -1,0 +1,127 @@
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .styled-text-light {
+    text-shadow: -1px 1px 0 var(--blue), 1px 1px 0 var(--blue), 
+                 1px -1px 0 var(--blue), -1px -1px 0 var(--blue);
+  }
+  .styled-text-dark {
+    text-shadow: -1px 1px 0 var(--dark), 1px 1px 0 var(--dark), 
+                 1px -1px 0 var(--dark), -1px -1px 0 var(--dark);
+  }
+  
+  .card-light, .card-dark {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .card-light,
+  .card-dark {
+    width: 250px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+    min-width: 300px;
+  }
+  
+  .image-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .column-c {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .second {
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  button.button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .button-light {
+    background-color: var(--blue);
+    color: var(--light);
+  }
+  
+  .button-dark {
+    background-color: var(--dark);
+    color: var(--green);
+    border: 1px solid var(--green);
+  }
+  
+  .button-light:hover {
+    background-color: var(--light-blue);
+    color: var(--black);
+  }
+  
+  .button-dark:hover {
+    background-color: var(--green);
+    color: var(--dark);
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card-light,
+    .card-dark {
+      width: 90vw; /* use most of screen width */
+      padding: 8px 10px;
+    }
+  
+    .card-light h1,
+    .card-dark h1 {
+      font-size: 1.3rem;
+    }
+  
+    .card-light h3,
+    .card-dark h3 {
+      font-size: 1rem;
+    }
+  
+    .card-light p,
+    .card-dark p {
+      font-size: 0.85rem;
+    }
+  
+    .mini-card {
+      font-size: 0.75rem;
+      padding: 4px 6px;
+    }
+  
+    img.weather-icon {
+      width: 40px !important;
+      height: 40px !important;
+    }
+  }
