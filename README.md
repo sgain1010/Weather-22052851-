@@ -50,54 +50,15 @@ the details used from the `openweathermap API` is follows:
 * Login in to [Openweathermap](https://openweathermap.org/api) api website to get your `API key`
 
 
-## Run and Setup
 
-1. Fork the Project and clone Repository using git clone
-
-```
-git clone https://github.com/SubramanyaKS/Weather-app.git
-```
-2. Navigate to the project directory:
-
-```
-cd Weather-app
-```
-3.  Install all dependency in package.json
-
-```
-npm install
-```
-4.  Obtain an API key from OpenWeatherMap:
-
-      Visit the OpenWeatherMap website and sign up for an account.After signing in, go to your account dashboard and generate an API key.
-
-5.  Create a .env file in the root directory of the project and add your API key:
-
-```
-REACT_APP_API_KEY=<Your openwearhermap API Key>
-```
-
-6.  Start the development server using command:
-
-```
-npm start
-```
-
-7. Open your browser and navigate to `http://localhost:3000` to see the app running.
-
-## Contribution
-
-We welcome contributions! If you'd like to contribute to Weather-app, please follow our [Contribution Guidelines](https://github.com/SubramanyaKS/Weather-app/blob/main/CONTRIBUTING.md).
 
 
 ## Deploy
 
-Weather App is live and ready for you to explore! Visit [WeatherApp](https://subramanyaks.github.io/Weather-app/)
+Weather App is live and ready for you to explore! Visit [WeatherApp](https://weather-22052851.vercel.app/)
 
 
-## Author
 
-[Subramanya K S](https://subramanyaks.github.io/)
 
 <!--Licence-->
 ## LICENSE
@@ -114,4 +75,4 @@ This project is distributed under MIT License read `LICENSE` file for more detai
 
 If you like the project 🌟 the repository.
 
-Thank you with ❤ Subramanya KS
+Thank you with ❤ Sayak Gain
